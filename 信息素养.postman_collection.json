@@ -1,0 +1,1033 @@
+{
+	"id": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+	"name": "信息素养",
+	"description": "",
+	"order": [
+		"9bcfe4d7-0802-6b78-01a3-1fd7a887ddf2",
+		"9262c8c0-daf8-a571-a88b-0a837c7c477c",
+		"f5cea702-c4c4-3f00-cf95-d52e13fd7c68",
+		"9f468bc7-118b-78fa-1bf3-e879081e7229",
+		"6f8e9f06-6933-02af-d691-49412a01fac3",
+		"db4e7c2d-b182-9670-77c7-4b9067e613c2",
+		"73044e8e-821c-331f-33c4-4d17f0642083",
+		"4eda6db4-3416-a69a-6224-afe1256a7b90",
+		"5e1960f1-b2f5-ccae-4173-df4ffd7401ea",
+		"08c7174f-9507-9671-a784-3a291d28f38b",
+		"a5f693e8-ad82-5172-f635-c95cf57d5928",
+		"e0af9fa9-dfb2-260d-e71d-fad22e7de5f0",
+		"68e25966-d607-b459-60c6-27848e53e594",
+		"906dfaa7-a425-4bc0-a7b6-e64f506f0934",
+		"5047ac91-a8cf-f142-67a6-e1dec4885d43",
+		"72e3cd8a-ac1d-4eed-8502-62ea880659c7",
+		"ff556378-c854-bedb-0eb1-11f1e6b9ff53",
+		"64a44bb5-cbda-9e55-11f3-8f82873bf019",
+		"f92e6150-650b-b0c9-8621-c1d2231f62dd",
+		"72dbc957-80a7-f692-f127-1f2f256b35ae",
+		"fe4bd701-4cf1-f68b-9feb-ad76401346fe",
+		"c4da84ed-b672-e9bd-83e2-7de0bb2d1ed9",
+		"273cc4b1-7ca0-af01-fd57-076dbf7cf78c",
+		"dc41d629-57d0-6143-a758-5729c163633a",
+		"cea46685-7029-0bda-70a9-a1c89cbdc63d",
+		"75adf4ea-e932-efdd-ad9a-054c46977e7b",
+		"4af66381-4283-729c-0a07-b5aeb3099be9",
+		"0cea946f-be83-e27b-1772-cef3d5b95567",
+		"f87a3cb0-1a28-31c3-01e8-6b15a6df4c35",
+		"6931977f-2ec0-63f5-83ed-c8d8913de6ad",
+		"debc1d9a-8c66-1b4b-331f-b4867f6c870e",
+		"829102c0-46d7-0369-f163-72fc98cff0d2"
+	],
+	"folders": [],
+	"timestamp": 1487832878297,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "08c7174f-9507-9671-a784-3a291d28f38b",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=edit&operation=delete_option",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "option_ids",
+					"value": "676,677",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1489660132845,
+			"name": "删除选项",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "0cea946f-be83-e27b-1772-cef3d5b95567",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=login&operation=login&login_type=admin",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "account",
+					"value": "wuzhong",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pass",
+					"value": "wuzhong",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1490855472829,
+			"name": "登陆",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "273cc4b1-7ca0-af01-fd57-076dbf7cf78c",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=index&operation=add_question_index",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "question_id",
+					"value": "1,2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "index_id",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488711378596,
+			"name": "为问卷添加指标",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "4af66381-4283-729c-0a07-b5aeb3099be9",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=evaluation&operation=edu_primary_depart&order_by_gender=no&type=overview&primary_index_id=5&test_times=1&edu_depart_id=6&school_id=12&grade=高一&class=高一(01)班&edu_primary_depart_id=5",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1490932817123,
+			"name": "区域评价",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "4eda6db4-3416-a69a-6224-afe1256a7b90",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=edit&operation=update_question",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "question_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "对信息素养的理解有多少",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488548167467,
+			"name": "编辑题目",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "5047ac91-a8cf-f142-67a6-e1dec4885d43",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=list&operation=questionnaire_list&page=1&page_size=2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488509270493,
+			"name": "问卷清单",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "5e1960f1-b2f5-ccae-4173-df4ffd7401ea",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=edit&operation=update_option",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "option_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "极好",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "question_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "order",
+					"value": "a",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488610298449,
+			"name": "编辑选项",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "64a44bb5-cbda-9e55-11f3-8f82873bf019",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=list&operation=get_indexes&show_questions=1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488773002732,
+			"name": "指标清单",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "68e25966-d607-b459-60c6-27848e53e594",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=questionnaire&operation=publish_questionnaire",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "test_times",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "questionnaire_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488629044158,
+			"name": "发布问卷",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "6931977f-2ec0-63f5-83ed-c8d8913de6ad",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=login&operation=logout",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "pass",
+					"value": "01010106",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1490847703856,
+			"name": "注销登陆 ",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "6f8e9f06-6933-02af-d691-49412a01fac3",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=edit&operation=update_title",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "questionnaire_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "content",
+					"value": "信息素养水平问卷",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488547193195,
+			"name": "编辑问卷标题",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "72dbc957-80a7-f692-f127-1f2f256b35ae",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=status&operation=questions_lib",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1489648060051,
+			"name": "获取题库状态信息",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "72e3cd8a-ac1d-4eed-8502-62ea880659c7",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=list&operation=question_list&page=1&page_size=2",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488506804268,
+			"name": "问题清单",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "73044e8e-821c-331f-33c4-4d17f0642083",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=questionnaire&operation=add_option",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "options",
+					"value": "[{\"question_id\":\"152\",\"content\":\"显示器\",\"order\":\"C\"},{\"question_id\":\"152\",\"content\":\"主机\",\"order\":\"D\"}]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1489638941102,
+			"name": "问卷添加选项",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "75adf4ea-e932-efdd-ad9a-054c46977e7b",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=evaluation&operation=edu_depart&order_by_gender=no&type=overview&primary_index_id=5&test_times=1&school_id=21&grade=all&class=all&edu_depart_id=7",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1490932795663,
+			"name": "县区评价",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "829102c0-46d7-0369-f163-72fc98cff0d2",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=navigate&operation=school&school_id=12",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1490924507971,
+			"name": "学校导航",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "906dfaa7-a425-4bc0-a7b6-e64f506f0934",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=questionnaire&operation=view_questionnaire&id=1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488374894414,
+			"name": "预览问卷",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "9262c8c0-daf8-a571-a88b-0a837c7c477c",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=register&type=school",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"data": [
+				{
+					"key": "account",
+					"value": "huashi",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "passwd",
+					"value": "huashi",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "华师附小",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "province",
+					"value": "湖北",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "city",
+					"value": "武汉",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "county",
+					"value": "洪山",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "detail_addr",
+					"value": "华师",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "stu_count",
+					"value": "3000",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tea_count",
+					"value": "200",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contacter",
+					"value": "常春波",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "13545891316",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "edu_depart_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "学校注册",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1488290061432,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9bcfe4d7-0802-6b78-01a3-1fd7a887ddf2",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost/info_literacy/?qt=open_account&type=department",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "account",
+					"value": "xujian",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "passwd",
+					"value": "xujian",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "xujian",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "province",
+					"value": "北京",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "city",
+					"value": "北京",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "county",
+					"value": "海淀",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "parent_id",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488281895354,
+			"name": "开账户",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "9f468bc7-118b-78fa-1bf3-e879081e7229",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=questionnaire&operation=add_title",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "信息素养测评问卷",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488363022460,
+			"name": "问卷添加标题",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "a5f693e8-ad82-5172-f635-c95cf57d5928",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=edit&operation=delete_questionnaire_questions",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "questionnaire_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "question_id",
+					"value": "1,2",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488613926750,
+			"name": "编辑组卷",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "c4da84ed-b672-e9bd-83e2-7de0bb2d1ed9",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=index&operation=add_index",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "content",
+					"value": "信息情感意识",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "weight",
+					"value": "30",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "parent_id",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488708433953,
+			"name": "添加指标",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "cea46685-7029-0bda-70a9-a1c89cbdc63d",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=evaluation&operation=school&grade=all&order_by_gender=no&type=part&primary_index_id=5&test_times=1&class=all&edu_depart_id=7&school_id=21",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1490932739583,
+			"name": "学校评价",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "db4e7c2d-b182-9670-77c7-4b9067e613c2",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=questionnaire&operation=add_question",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "content",
+					"value": "终端有哪些？",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488365382468,
+			"name": "问卷添加题目",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "dc41d629-57d0-6143-a758-5729c163633a",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=evaluation&operation=individual&stu_id=01010106&test_times=1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1490931349538,
+			"name": "个人评价",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "debc1d9a-8c66-1b4b-331f-b4867f6c870e",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=navigate&operation=edu_depart&edu_depart_id=6",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"data": [],
+			"dataMode": "params",
+			"name": "教育管理部门导航",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1490924456225,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e0af9fa9-dfb2-260d-e71d-fad22e7de5f0",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=questionnaire&operation=add_questionnaire",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "question_id",
+					"value": "2,1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "questionnaire_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488374749429,
+			"name": "组卷",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "f5cea702-c4c4-3f00-cf95-d52e13fd7c68",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=register&type=student",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "account",
+					"value": "huashi",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "passwd",
+					"value": "huashi",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "男",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "school_id",
+					"value": "12",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "grade",
+					"value": "高一",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "class",
+					"value": "高一（3）",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488347832954,
+			"name": "学生注册",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "f87a3cb0-1a28-31c3-01e8-6b15a6df4c35",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=login&operation=validate",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "pass",
+					"value": "01010106",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1490843893267,
+			"name": "判断用户是否登陆",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "f92e6150-650b-b0c9-8621-c1d2231f62dd",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=status&operation=questionnaire&questionnaire_id=1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1489647418325,
+			"name": "获取问卷状态信息",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "fe4bd701-4cf1-f68b-9feb-ad76401346fe",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=answers",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "questionnaire_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "test_times",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "answer",
+					"value": "{\"1\":\"A\",\"2\":\"C\"}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488701289515,
+			"name": "回答问卷",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		},
+		{
+			"id": "ff556378-c854-bedb-0eb1-11f1e6b9ff53",
+			"headers": "",
+			"url": "http://localhost/info_literacy/?qt=list&operation=no_exists_questionnaire_list&questionnaire_id=2&page=2&page_size=20",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1489653400713,
+			"name": "获取不存在于问卷的题库中的问题清单",
+			"description": "",
+			"collectionId": "ff4e8726-e59b-b7a6-b1ce-9cdba77cbc6b",
+			"responses": []
+		}
+	]
+}
